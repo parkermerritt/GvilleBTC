@@ -1,0 +1,115 @@
+
+header {
+height:300px;
+position: fixed;
+z-index: -1;
+padding-top: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 3px;
+  list-style-type: none;
+  display: flex;
+}
+
+ul li {
+  text-align: center;
+}
+
+.embedded-video {
+    margin-left: 5%;
+    margin-right: 5%;
+    width:90%;
+    height:90%;
+    min-height: 190px;
+    padding: 0;
+    vertical-align: middle;
+    margin-bottom:-20%;
+    margin-top: -10%;
+}
+.mySlides {
+max-height: 400px;
+margin-bottom: -5%;
+margin-top: -3%;
+width:100%;
+}
+.navbar-fixed {
+    margin-bottom:20vh;
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    margin-top: -4px;
+}
+.navDemo-fixed {
+  position:fixed;
+  z-index:90;
+  margin-top: -37%;
+  width: 100%;
+}
+.intro {
+  padding-top: 40px;
+}
+.intro-scrolled {
+  padding-top: 180px;
+}
+
+#navDemo {
+  padding-top: 10px;
+  z-index: 90;
+}
+#body_div {
+	  top: 0;
+	  position: relative;
+    height: 200px;
+    background-color: green;
+}
+#banner {
+	width: 100%;
+    background-color: gray;
+	overflow: hidden;
+}
+#nav_bar {
+	border: 0;
+	background-color: #202020;
+	border-radius: 0px;
+}
+#navLogo {
+margin-bottom:-25px;
+padding-top: -7px;
+margin-top: -3px;
+min-width: 120px;
+max-width: 150px;
+}
+.nav_links li {
+  margin: auto;
+  justify-content: space-between;
+  color: #ffffff;
+	text-decoration: none;
+  display: inline-block;
+
+}
+/* Styles for small and medium screens */
+@media screen and (max-width:600px) {
+#navLogo {
+  float:left;
+  position: relative;
+  margin-left: -400px;
+  margin: -15px;
+  margin-top: -30px;
+  z-index: 500;
+  padding-top: 15px;
+  min-width: 80px;
+}
+.navbar-fixed {
+padding-top: 13px;
+}
+.space-bg {
+width:100%;
+}
+}
+/* styles for large screens */
+@media screen and (min-width:601px) {
+.space-bg {display:none;}
+}
