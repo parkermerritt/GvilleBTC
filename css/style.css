@@ -11,10 +11,12 @@ ul {
   padding: 3px;
   list-style-type: none;
   display: flex;
+  flex-direction: row;
 }
 
 ul li {
   text-align: center;
+
 }
 
 .embedded-video {
