@@ -56,6 +56,9 @@ width:100%;
 .intro-scrolled {
   padding-top: 180px;
 }
+.my-section{
+  width: 100%;
+}
 
 #navDemo {
   padding-top: 10px;
@@ -109,6 +112,10 @@ padding-top: 13px;
 }
 .space-bg {
 width:100%;
+}
+.biz-logo{
+  max-width: 250px;
+  min-width: 200px;
 }
 }
 /* styles for large screens */
