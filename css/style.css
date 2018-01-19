@@ -110,14 +110,12 @@ max-width: 150px;
 .navbar-fixed {
 padding-top: 13px;
 }
-.space-bg {
-width:100%;
-}
+
 .biz-logo{
-  max-width: 250px;
-  min-width: 200px;
+  max-width: 200px;
+  min-width: 150px;
 }
-}
+
 /* styles for large screens */
 @media screen and (min-width:601px) {
 .space-bg {display:none;}
