@@ -16,7 +16,11 @@ ul {
 
 ul li {
   text-align: center;
+}
 
+h2 {
+  font-size: 40px;
+  font-family: 'Bangers';
 }
 
 .embedded-video {
@@ -86,6 +90,9 @@ padding-top: -7px;
 margin-top: -3px;
 min-width: 120px;
 max-width: 150px;
+}
+#navToggle {
+  min-width: 200px;
 }
 .nav_links li {
   margin: auto;
