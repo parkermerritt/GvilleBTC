@@ -22,7 +22,13 @@ h2 {
   font-size: 50px;
   font-family: 'Bangers';
 }
+.subhead {
+  font-size: 18px;
+  margin: -10px;
+  padding: -10px;
 
+
+}
 .embedded-video {
     margin-left: 5%;
     margin-right: 5%;
@@ -67,7 +73,9 @@ width:100%;
 .biz-logo {
   max-width: 500px;
 }
-
+.half-section {
+  padding: 2vw;
+}
 
 #navDemo {
   padding-top: 10px;
@@ -124,8 +132,9 @@ padding-top: 13px;
 }
 
 .biz-logo{
-  max-width: 200px;
-  min-width: 150px;
+
+  padding: 10px;
+  max-height: 10vh;
 }
 
 /* styles for large screens */
