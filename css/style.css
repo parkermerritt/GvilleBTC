@@ -19,7 +19,7 @@ ul li {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Bangers';
 }
 
@@ -63,6 +63,11 @@ width:100%;
 .my-section{
   width: 100%;
 }
+
+.biz-logo {
+  max-width: 500px;
+}
+
 
 #navDemo {
   padding-top: 10px;
