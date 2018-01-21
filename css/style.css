@@ -132,9 +132,9 @@ padding-top: 13px;
 }
 
 .biz-logo{
-
-  padding: 10px;
-  max-height: 10vh;
+  min-width: 150px;
+  margin: 0;
+  padding: 3px;
 }
 
 /* styles for large screens */
