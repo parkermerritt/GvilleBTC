@@ -32,7 +32,9 @@ h3 {
   font-family: 'Bangers';
   padding-bottom: 5px;
   color: #132c56;
-
+}
+p {
+  font-family: 'Fira Sans', sans-serif;
 }
 .subhead {
   font-size: 18px;
