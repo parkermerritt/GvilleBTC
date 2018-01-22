@@ -168,6 +168,9 @@ h2 {
   padding-top: 15px;
   min-width: 80px;
 }
+.intro-scrolled {
+  padding-top: 110px;
+}
 .subhead {
   font-size: 16px;
 }
