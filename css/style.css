@@ -19,15 +19,19 @@ ul {
 ul li {
   text-align: center;
 }
-
+h1 {
+  font-family: 'Bangers';
+  font-size: 54px;
+}
 h2 {
-  font-size: 55px;
+  font-size: 46px;
   font-family: 'Bangers';
 }
 h3 {
   font-size: 30px;
   font-family: 'Bangers';
   padding-bottom: 5px;
+  color: #132c56;
 
 }
 .subhead {
@@ -149,7 +153,7 @@ max-width: 150px;
 /* Styles for small and medium screens */
 @media screen and (max-width:600px) {
 h2 {
-  font-size: 35px;
+  font-size: 38px;
 }
 #navLogo {
   width:35%;
