@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
 
 header {
 height:300px;
@@ -27,6 +29,11 @@ h2 {
   margin: -10px;
   margin-top: -25px;
   padding: -10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.nav-text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
 }
 .center-content {
 padding: 30px 0;
@@ -124,7 +131,11 @@ max-width: 150px;
 }
 /* Styles for small and medium screens */
 @media screen and (max-width:600px) {
+h2 {
+  font-size: 35px;
+}
 #navLogo {
+  width:35%;
   float:left;
   position: relative;
   margin-left: -400px;
@@ -133,6 +144,9 @@ max-width: 150px;
   z-index: 500;
   padding-top: 15px;
   min-width: 80px;
+}
+.subhead {
+  font-size: 16px;
 }
 .navbar-fixed {
 padding-top: 13px;
