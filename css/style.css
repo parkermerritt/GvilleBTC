@@ -125,7 +125,7 @@ width:100%;
   float: left;
   width: 90%;
   position: static;
-  padding-top: 50px;
+  padding-top: 30px;
   right: 5%;
 }
 #navDemo {
@@ -229,7 +229,9 @@ padding-top: 13px;
   text-align: center;
   float: none;
   width: 50%;
-  padding-top: 25px;
+  padding-top: 8px;
+  max-width: 180px;
+  margin-bottom: -35px;
 }
 .adj-biz-logo {
   margin-bottom: -60px;
