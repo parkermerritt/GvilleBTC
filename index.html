@@ -192,8 +192,11 @@
 
 <script>
 $(document).ready(function() {
+  $('#intro').addClass('intro-load');
+  $('#intro').removeClass('intro');
 //Fixes navbar and dropdown menu after scrolling
 $(window).scroll(function () {
+
     //if you hard code, then use console
     //.log to determine when you want the
     //nav bar to stick.
@@ -203,12 +206,16 @@ $(window).scroll(function () {
     $('#navDemo').addClass('navDemo-fixed');
     $('#intro').addClass('intro-scrolled');
     $('#intro').removeClass('intro');
+    $('#intro').removeClass('intro-load');
+
   }
   if ($(window).scrollTop() < $('#banner').height()-3) {
     $('#nav_bar').removeClass('navbar-fixed');
     $('#navDemo').removeClass('navDemo-fixed');
     $('#intro').removeClass('intro-scrolled');
     $('#intro').addClass('intro');
+    $('#intro').removeClass('intro-load');
+
   }
 });
 });
