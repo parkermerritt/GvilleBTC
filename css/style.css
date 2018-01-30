@@ -26,6 +26,8 @@ h1 {
 h2 {
   font-size: 42px;
   font-family: 'Patua One';
+  line-height: 32px;
+  padding-bottom: 14px;
 }
 h3 {
   font-size: 26px;
@@ -84,7 +86,7 @@ width:100%;
 .navDemo-fixed {
   position:fixed;
   z-index:90;
-  margin-top: -37%;
+  margin-top: -30%;
   width: 100%;
 }
 .intro {
@@ -118,7 +120,7 @@ width:100%;
   right: 5%;
 }
 #navDemo {
-  padding-top: 10px;
+  padding-top: 14px;
   z-index: 90;
 }
 #body_div {
@@ -170,19 +172,27 @@ h2 {
   font-size: 38px;
 }
 #navLogo {
-  width:35%;
+  width:20vw;
   float:left;
   position: relative;
-  margin-left: -400px;
-  margin: -150px;
-  margin-top: -50px;
+  margin-left: -110px;
+  margin: 0px;
+  margin-top: -27px;
+  margin-bottom: -10px;
   z-index: 500;
-  padding-top: 15px;
+  padding-top: 16px;
   min-width: 80px;
 }
 #florida {
   max-width: 280px;
-
+}
+#gnvbtc {
+  width:75%;
+  max-width: 200px;
+  position: relative;
+  margin-right: 50vw;
+  margin-left: -3%;
+  padding: 0;
 }
 .intro-scrolled {
   padding-top: 110px;
