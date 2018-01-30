@@ -121,6 +121,13 @@ width:100%;
   padding-top: 50px;
   right: 5%;
 }
+.prof-pic {
+  float: left;
+  width: 90%;
+  position: static;
+  padding-top: 50px;
+  right: 5%;
+}
 #navDemo {
   padding-top: 14px;
   z-index: 90;
@@ -213,6 +220,12 @@ padding-top: 13px;
 }
 
 .event-pic {
+  text-align: center;
+  float: none;
+  width: 50%;
+  padding-top: 25px;
+}
+.prof-pic {
   text-align: center;
   float: none;
   width: 50%;
