@@ -20,16 +20,16 @@ ul li {
   text-align: center;
 }
 h1 {
-  font-family: 'Bangers';
+  font-family: 'Patua One';
   font-size: 54px;
 }
 h2 {
   font-size: 46px;
-  font-family: 'Bangers';
+  font-family: 'Patua One';
 }
 h3 {
   font-size: 30px;
-  font-family: 'Bangers';
+  font-family: 'Patua One';
   padding-bottom: 5px;
   color: #132c56;
 }
@@ -39,7 +39,7 @@ p {
 .subhead {
   font-size: 18px;
   margin: -10px;
-  margin-top: -25px;
+  margin-top: -22px;
   padding: -8px;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -202,8 +202,6 @@ padding-top: 13px;
   float: none;
   width: 50%;
   padding-top: 25px;
-  box-shadow: 5px 10px #888888;
-
 
 }
 
