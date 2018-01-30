@@ -105,8 +105,9 @@ width:100%;
 }
 
 .biz-logo {
-  max-width: 500px;
+  max-width: 400px;
   text-align: center;
+  margin: -15px;
 }
 .half-section {
   padding: 2vw;
@@ -215,7 +216,7 @@ padding-top: 13px;
 
 .biz-logo{
   min-width: 150px;
-  margin: 0;
+  margin: -15px;
   padding: 3px;
 }
 
