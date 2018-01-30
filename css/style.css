@@ -34,6 +34,7 @@ h3 {
   font-family: 'Patua One';
   padding-bottom: 5px;
   color: #132c56;
+  line-height: 34px;
 }
 p {
   font-family: 'Fira Sans', sans-serif;
@@ -41,9 +42,10 @@ p {
 .subhead {
   font-size: 18px;
   margin: -10px;
-  margin-top: -22px;
+  margin-top: -16px;
   padding: -8px;
   font-family: 'Josefin Sans', sans-serif;
+  line-height: 18px;
 }
 .event-info {
 padding-top: 10%;
