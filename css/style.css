@@ -161,6 +161,9 @@ max-width: 150px;
 	text-decoration: none;
   display: inline-block;
 }
+.adj-biz-logo {
+  width: 60%;
+}
 /* Styles for small and medium screens */
 @media screen and (max-width:600px) {
 h2 {
@@ -202,7 +205,10 @@ padding-top: 13px;
   float: none;
   width: 50%;
   padding-top: 25px;
-
+}
+.adj-biz-logo {
+  margin-bottom: -60px;
+  width: 60%;
 }
 
 /* styles for large screens */
